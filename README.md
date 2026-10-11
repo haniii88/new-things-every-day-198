@@ -8,7 +8,7 @@ function dailyLog198() {
   ];
 
   const suspicious = loginAttempts.filter(
-    attempt => attempt.failed >= 3 || attempt.location === "Unknown"
+    attempt => attempt.failed >= 3 || attempt.location === "Unknow"
   );
 
   const totalFailed = loginAttempts.reduce(
